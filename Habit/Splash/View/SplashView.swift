@@ -56,7 +56,7 @@ extension SplashView {
     }
 }
 
-// Forma 3 - Funções em extensions (manda o objeto loadingView())
+// Forma 3 - Funções em extension s (manda o objeto loadingView())
 extension SplashView {
     func loadingView(error: String? = nil) -> some View {
         ZStack {

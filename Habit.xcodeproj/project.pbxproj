@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61B09752929C8CD00447AB2 /* SignInUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B09742929C8CD00447AB2 /* SignInUIState.swift */; };
 		C67D1F17290F5283000D3271 /* HabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67D1F16290F5283000D3271 /* HabitApp.swift */; };
 		C67D1F19290F5283000D3271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67D1F18290F5283000D3271 /* ContentView.swift */; };
 		C67D1F1B290F5285000D3271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67D1F1A290F5285000D3271 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C61B09742929C8CD00447AB2 /* SignInUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUIState.swift; sourceTree = "<group>"; };
 		C67D1F13290F5283000D3271 /* Habit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67D1F16290F5283000D3271 /* HabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitApp.swift; sourceTree = "<group>"; };
 		C67D1F18290F5283000D3271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		C6FA30FD29108EE600FE3E38 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C61B09742929C8CD00447AB2 /* SignInUIState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				C6FA30FB29107FD100FE3E38 /* SplashViewModel.swift in Sources */,
 				C67D1F2A290F549A000D3271 /* SplashUIState.swift in Sources */,
 				C67D1F19290F5283000D3271 /* ContentView.swift in Sources */,
+				C61B09752929C8CD00447AB2 /* SignInUIState.swift in Sources */,
 				C67D1F17290F5283000D3271 /* HabitApp.swift in Sources */,
 				C67D1F28290F5321000D3271 /* SplashView.swift in Sources */,
 			);
@@ -363,6 +367,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,6 +397,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
